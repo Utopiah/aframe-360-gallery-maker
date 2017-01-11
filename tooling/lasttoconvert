@@ -1,0 +1,1 @@
+jq '.[]' galleries/`ls -1rt galleries/ | tail -1` | sed -e 's/"//g'

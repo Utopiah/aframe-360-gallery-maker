@@ -1,0 +1,2 @@
+#for X in `cd uploads/; ls *.jpg *.JPG -1`; do convert uploads/$X -resize 10% uploads/previews/$X; done
+for X in `tooling/lasttoconvert`; do convert uploads/$X -resize 10% uploads/previews/$X; done
